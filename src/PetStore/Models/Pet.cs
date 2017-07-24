@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PetStore.Models
 {
-    public class Pet
+    public class Pet //This is still incomplete
     {
         public int PetID { get; set; }
         public string Name { get; set; }

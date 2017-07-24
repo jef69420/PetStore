@@ -16,6 +16,6 @@ namespace PetStore.Controllers
             repository = repo;
         }
 
-        public ViewResult Index() => View(repository.Customer);
+        public ViewResult Index() => View(repository.Customer);  //Index is what the view is called I think
     }
 }
