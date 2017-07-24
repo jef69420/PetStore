@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Customer>
+
+@foreach (var p in Model)
+{
+    <div>
+        <h3>@p.Name</h3>
+        <p>Address: @p.Address</p>
+        <p>Contact: @p.ContactNo</p>
+        <p>Email Address: @p.EmailAddr</p>
+        <p>Password: @p.Password</p>
+    </div>
+}
